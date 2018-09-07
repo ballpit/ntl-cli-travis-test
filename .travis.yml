@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - 'lts/*'
+sudo: false
+cache:
+  directories:
+    - ~/.npm
+install:
+  - npm i
+script:
+  - npm run deploy
+env:
+  - NETLIFY_SITE_ID=5ca88258-7af3-4798-aeb5-b6c719f6e3bf
+  # NETLIFY_AUTH_TOKEN set in travis settings

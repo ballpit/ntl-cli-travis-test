@@ -1,0 +1,28 @@
+{
+  "name": "ntl-cli-travis-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "npm run build && netlify deploy",
+    "build": "rimraf build && mkdirp build && sitedown"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ballpit/ntl-cli-travis-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ballpit/ntl-cli-travis-test/issues"
+  },
+  "homepage": "https://github.com/ballpit/ntl-cli-travis-test#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "mkdirp": "^0.5.1",
+    "netlify-cli": "^2.0.0-alpha.6",
+    "rimraf": "^2.6.2",
+    "sitedown": "^3.3.1"
+  }
+}
