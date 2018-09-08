@@ -21,7 +21,7 @@
   "dependencies": {},
   "devDependencies": {
     "mkdirp": "^0.5.1",
-    "netlify-cli": "^2.0.0-alpha.6",
+    "netlify-cli": "^2.0.0-alpha.7",
     "rimraf": "^2.6.2",
     "sitedown": "^3.3.1"
   }
